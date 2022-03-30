@@ -25,7 +25,7 @@ export default function ModalCV({ resumeTrueFalse }) {
                             <div className="avatar">
                                 <img src="img/header/1.jpg" alt="" />
                             </div>
-                            <h3><span>Krasimir</span> Krasimirov</h3>
+                            <h3>Krasimir Krasimirov</h3>
                             <p>I’m available for a internship or junior position.</p>
                             <ul className="social">
                                 <li>
