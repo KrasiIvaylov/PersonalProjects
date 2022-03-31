@@ -41,7 +41,7 @@ export default function Contact() {
 				<div className="container">
 					<div className="contact_wrapper">
 						<div className="contact_wrapper_form">
-							<form className="contact_form" onSubmit={(e) => onSubmit(e)} data-email="trendycoder.com@gmail.com">
+							<form className="contact_form" onSubmit={(e) => onSubmit(e)} data-email="krasimirivajlov@gmail.com">
 
 								<div
 									className="success"

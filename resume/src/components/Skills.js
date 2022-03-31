@@ -31,14 +31,14 @@ export default function Skills() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="progress_item open" data-value={55}>
+                            <div className="progress_item open" data-value={60}>
                                 <div className="item_in">
                                     <h3 className="progress_title">HTML5 &amp; CSS3</h3>
                                     <span
                                         className="progress_percent"
-                                        style={{ right: "45%" }}
+                                        style={{ right: "40%" }}
                                     >
-                                        55%
+                                        60%
                                     </span>
                                     <div className="bg_wrap">
                                         <div className="progress_bg" style={{ width: "100%" }} />

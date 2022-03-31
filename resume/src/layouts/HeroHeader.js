@@ -4,7 +4,7 @@ export default function HeroHeader({ resumeTrueFalse }) {
     useEffect(() => {
         const Typed = require("typed.js");
         new Typed(".is-visible", {
-            strings: ["Motivated,<br> Determined, <br> Passionate", "Web development <br> student", "Open to work", "Wellcome to <br> my page!"],
+            strings: ["Motivated,<br> Determined, <br> Passionate", "Web development <br> student", "Open to work"],
             // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
             stringsElement: null,
             // typing speed
@@ -62,7 +62,7 @@ export default function HeroHeader({ resumeTrueFalse }) {
                         </div>
                         <div className="right_hero_header">
                             <div className="my_self">
-                                <h4>Saluton Mondo! I Am</h4>
+                                <h4>Saluton Mondo!</h4>
                                 {/* - It is animation title. You can change animation variation by changing extra class to one of next classes: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push. cd-headline class can not be removed.  */}
                                 <h2 className="cd-headline clip">
                                     <span className="cd-words-wrapper">

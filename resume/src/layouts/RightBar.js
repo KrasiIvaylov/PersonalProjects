@@ -27,7 +27,7 @@ export default function RightBar({ toggleTrueFalse }) {
                         </div>
                         <div className="copyright">
                             <p>Copyright</p>
-                            <a href="https://trendycoder.com/" target="_blank">Developed by Krasimir Krasimirov</a>
+                            <a href="https://www.linkedin.com/in/krasimir-ivaylov-3b6800198/" target="_blank">Developed by Krasimir Krasimirov</a>
                         </div>
                     </div>
                 </div>
