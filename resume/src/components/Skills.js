@@ -5,14 +5,13 @@ export default function Skills() {
 
         <>
             {/* Section Skills */}
-            <section id="scills" className="section_skills wow fadeInRight" data-wow-delay=".7s">
-                <div className="scills_wrapper">
+            <section id="skills" className="section_skills wow fadeInRight" data-wow-delay=".7s">
+                <div className="skills_wrapper">
                     <div className="container narrow">
-                        <div className="scills_title">
+                        <div className="skills_title">
                             <h3>Knowledge &amp; Skills</h3>
                         </div>
-                        <div className="scills_about">
-                            <p>For over two years, I've studied businesses to craft honest, emotional experiences through brand development, web design and database management. </p>
+                        <div className="skills_about">
                         </div>
                     </div>
                     <div className="container narrow2">

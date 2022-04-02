@@ -572,17 +572,17 @@ p {
 	opacity: 0;
 	position: relative;
 }
-.section_scills {
+.section_skills {
 	width: 100%;
 	float: left;
 	padding: 94px 0 100px;
 }
-.scills_title {
+.skills_title {
 	display: block;
 	text-align: center;
 	margin-bottom: 34px;
 }
-.scills_title h3 {
+.skills_title h3 {
 	text-transform: uppercase;
 	color: #999;
 	font-size: 18px;
@@ -590,17 +590,17 @@ p {
 	margin: 0;
 	letter-spacing: 1px;
 }
-.scills_about {
+.skills_about {
 	display: block;
 	text-align: center;
 	margin-bottom: 78px;
 }
-.scills_about p {
+.skills_about p {
 	font-size: 30px;
 	color: #0b0a0c;
 	letter-spacing: 0;
 }
-.scills_diogramm h6 {
+.skills_diogramm h6 {
 	font-size: 18px;
 	font-weight: 700;
 	color: #0b0a0c;
@@ -611,11 +611,11 @@ p {
 	transform: rotate(-5deg);
 	transition: all 0.5s ease;
 }
-.scills_diogramm ul {
+.skills_diogramm ul {
 	padding: 0;
 	margin: 0;
 }
-.scills_diogramm ul li {
+.skills_diogramm ul li {
 	margin: 0;
 	margin-bottom: 30px;
 }
@@ -649,7 +649,7 @@ p {
 	bottom: 0;
 	background-color: #000;
 }
-.scills_diogramm .open h6 {
+.skills_diogramm .open h6 {
 	opacity: 1;
 	transition: all 0.5s 0.5s ease;
 	transform: rotate(0);
