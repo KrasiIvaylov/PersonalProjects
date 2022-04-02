@@ -4,7 +4,7 @@ export default function Contact() {
 	const [form, setForm] = useState({ email: "", name: "", phone: "", msg: "" });
 	const [active, setActive] = useState(null);
 	const [error, setError] = useState(false);
-	const [success, setSuccess] = useState(true);
+	const [success, setSuccess] = useState(false);
 	const onChange = (e) => {
 		setForm({ ...form, [e.target.name]: e.target.value });
 	};

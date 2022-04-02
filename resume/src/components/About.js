@@ -1,5 +1,5 @@
 import React from 'react';
-import { SVG_Twitter, SVG_Facebook, SVG_Instagram, SVG_Pinterest, SVG_Youtube } from '../../public/svg/svg'
+import { SVG_Twitter, SVG_Facebook, SVG_Instagram, SVG_GitHub, SVG_LinkedIn } from '../../public/svg/svg'
 
 export default function About() {
   return (
@@ -31,12 +31,12 @@ export default function About() {
                 </li>
                 <li>
                   <a href="https://github.com/KrasiIvaylov" target="_blank" title="printerest.com">
-                    <SVG_Pinterest />
+                    < SVG_GitHub />
                   </a>
                 </li>
                 <li>
                   <a href="https://www.linkedin.com/in/krasimir-ivaylov-3b6800198" target="_blank" title="youtube.com">
-                    <SVG_Youtube />
+                    <SVG_LinkedIn />
                   </a>
                 </li>
               </ul>

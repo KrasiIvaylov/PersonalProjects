@@ -1,5 +1,6 @@
 import React from 'react';
-import { SVG_Facebook, SVG_Five_Stars, SVG_Instagram, SVG_Pinterest, SVG_Twitter, SVG_Youtube } from '../../public/svg/svg';
+import { SVG_Facebook, SVG_Instagram, SVG_Twitter, SVG_LinkedIn, SVG_GitHub } from '../../public/svg/svg';
+
 
 export default function ModalCV({ resumeTrueFalse }) {
     return (
@@ -44,13 +45,13 @@ export default function ModalCV({ resumeTrueFalse }) {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/KrasiIvaylov" target="_blank" title="printerest.com">
-                                        <SVG_Pinterest />
+                                    <a href="https://www.linkedin.com/in/krasimir-ivaylov-3b6800198" target="_blank" title="linkedin.com">
+                                        <SVG_LinkedIn />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/krasimir-ivaylov-3b6800198" target="_blank" title="linkedin.com">
-                                        <SVG_Youtube />
+                                    <a href="htthttps://github.com/KrasiIvaylov" target="_blank" title="github.com">
+                                        <SVG_GitHub />
                                     </a>
                                 </li>
                             </ul>
