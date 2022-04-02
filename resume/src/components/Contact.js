@@ -4,7 +4,7 @@ export default function Contact() {
 	const [form, setForm] = useState({ email: "", name: "", phone: "", msg: "" });
 	const [active, setActive] = useState(null);
 	const [error, setError] = useState(false);
-	const [success, setSuccess] = useState(false);
+	const [success, setSuccess] = useState(true);
 	const onChange = (e) => {
 		setForm({ ...form, [e.target.name]: e.target.value });
 	};
@@ -149,7 +149,7 @@ export default function Contact() {
 								<h4><a href="tel:359883579779">(+359) 883 579 779</a></h4>
 							</div>
 							<div className="address_footer">
-								<a href="krasimirivajlov@gmail.com">krasimirivajlov@gmail.com</a>
+								<a href="mailto:user@domain.com?Subject=Hello%20User">krasimirivajlov@gmail.com</a>
 							</div>
 						</div>
 					</div>
