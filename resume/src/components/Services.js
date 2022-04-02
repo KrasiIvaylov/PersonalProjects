@@ -8,7 +8,7 @@ export default function Services() {
                 <div className="container">
                     <div className="services_wrapper">
                         <div className="services_title">
-                            <h3>Amazing Services</h3>
+                            <h3>Applications & Services</h3>
                         </div>
                         <div className="services_content">
                             <div className="service_direct">
@@ -23,7 +23,7 @@ export default function Services() {
                                             </div>
                                             <div className="service_direct_right_bar">
                                                 <h2>Websites &amp; platforms</h2>
-                                                <p>Build and deployment of SPA and Web applications</p>
+                                                <p>Build and deployment of SPA and Web applications.</p>
                                             </div>
                                         </div>
                                     </li>
@@ -51,7 +51,7 @@ export default function Services() {
                                             </div>
                                             <div className="service_direct_right_bar">
                                                 <h2>Database Management</h2>
-                                                <p>Knowledge in db management with SQL</p>
+                                                <p>Knowledge in db management with SQL.</p>
                                             </div>
                                         </div>
                                     </li>
@@ -65,7 +65,7 @@ export default function Services() {
                                             </div>
                                             <div className="service_direct_right_bar">
                                                 <h2>Design conspect</h2>
-                                                <p>Design of web pages</p>
+                                                <p>Design of web pages.</p>
                                             </div>
                                         </div>
                                     </li>

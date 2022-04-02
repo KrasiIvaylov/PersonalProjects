@@ -2713,3 +2713,7 @@ body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb{border-co
 @media(max-width: 370px){
 	.fn__nav .text{display: none;}
 }
+.work_content_left_bar a.git_link{
+	color: #810541;
+	font-size: 90px;
+}

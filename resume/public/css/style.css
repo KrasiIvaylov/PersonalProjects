@@ -330,10 +330,10 @@ p {
 }
 .section_header .lines span {
 	width: 4px;
-	height: 138%;
+	height: 170%;
 	display: block;
 	background-color: rgb(0, 0, 0);
-	transform: rotate(30deg);
+	transform: rotate(40deg);
 	z-index: 13;
 	position: absolute;
 	top: -18%;
@@ -348,7 +348,7 @@ p {
 	top: -24%;
 }
 .section_header .right_hero_header {
-	width: 50%;
+	width: 70%;
 }
 .section_header .person_info {
 	position: absolute;
@@ -2658,4 +2658,10 @@ body.resume-opened .krasiIvaylov_fn__cv .cv__bg2 {
 .load_more a,
 .section_contact .contact_form a {
 	border-radius: 50px;
+}
+.work_content_left_bar a.git_link{
+	color: #810541;
+	font-size: 26px;
+	width: auto;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }

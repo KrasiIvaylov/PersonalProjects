@@ -9,7 +9,7 @@ export default function About() {
         <div className="container narrow">
           <div className="about_me">
             <div className="about_me_text">
-              <p>A creative person with solid design and development expertise. I build readymade websites, mobile applications, and elaborate online business services.
+              <p>A creative person with design and development expertise.  I gained my education at Software University Java program whilst learning a bit of Java Script, React, Spring, MySql along the road, and now i want to improve my skills at professional level. I am a fast learner, i understand the value in time management and clear communication, and I'm great at working with teams to get projects done right.
               </p>
             </div>
             <div className="about_me_more">
