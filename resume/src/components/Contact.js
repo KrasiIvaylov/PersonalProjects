@@ -13,6 +13,7 @@ export default function Contact() {
 		e.preventDefault();
 		if (email && name && phone && msg) {
 			setSuccess(true);
+
 			setTimeout(() => {
 				setForm({ email: "", name: "", phone: "", msg: "" });
 				setSuccess(false);
@@ -149,7 +150,7 @@ export default function Contact() {
 								<h4><a href="tel:359883579779">(+359) 883 579 779</a></h4>
 							</div>
 							<div className="address_footer">
-								<a href="mailto:user@domain.com?Subject=Hello%20User">krasimirivajlov@gmail.com</a>
+								<a href="mailto:krasimirivajlov@gmail.com?Subject=Hello%20">krasimirivajlov@gmail.com</a>
 							</div>
 						</div>
 					</div>
