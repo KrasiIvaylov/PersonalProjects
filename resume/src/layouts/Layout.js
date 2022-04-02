@@ -30,20 +30,18 @@ const Layout = ({ children }) => {
         rightBar.setAttribute('style', `cursor: default;`);
       });
 
-      //
       rightBar.addEventListener('click', (ev) => {
         document.querySelector("body").classList.remove('rightbar-opened');
       });
-
-
     }
   }
+
 
 
   return (
     <>
       <Head>
-        <title>Personal Portfolio React NextJS Template</title>
+        <title>Krasimir Krasimirov Personal Resume</title>
       </Head>
       <div className="krasiIvaylov_fn_main">
         <Overlay />

@@ -108,6 +108,6 @@ export default function Skills() {
                     </div>
                 </div>
             </section>
-            {/* /Section Scills */}
+            {/* /Section Skills */}
         </>);
 }
