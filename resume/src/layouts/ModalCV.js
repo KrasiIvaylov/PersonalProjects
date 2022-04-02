@@ -67,7 +67,7 @@ export default function ModalCV({ resumeTrueFalse }) {
                             <div className="section_title">
                                 <h3>Biography</h3>
                             </div>
-                            <p>I'm a junior/internship developer with over 2 years of studying experience. I'm from Pernik Bulgaria and i love coding and creating interactive web applications.I'm self motivated, and my adaptability allows me to work in many different environments, in addition to speaking with people from various backgrounds. .</p>
+                            <p>I'm a junior/internship developer with over 2 years of studying experience. I'm from Pernik Bulgaria and i love coding and creating interactive web applications.I'm self motivated, and my adaptability allows me to work in many different environments, in addition to speaking with people from various backgrounds.</p>
                             <div className="fn_cs_info_items">
                                 <ul>
                                     <li><p>Name: <span>Krasimir Krasimirov</span></p></li>
@@ -108,7 +108,7 @@ export default function ModalCV({ resumeTrueFalse }) {
                                                 <h5>Software University</h5>
                                             </div>
                                             <h3>Programming Fundamentals</h3>
-                                            <p>Foundations of web programming, practical work with lenear data structures, basic understanding of HTML5 & CSS and more </p>
+                                            <p>Foundations of web programming, practical work with lenear data structures, basic understanding of HTML5 & CSS3 and more. </p>
                                         </div>
                                     </li>
                                     <li>
@@ -118,7 +118,7 @@ export default function ModalCV({ resumeTrueFalse }) {
 
                                             </div>
                                             <h3>Java Advanced</h3>
-                                            <p>Principles of OOP, Streams, Files and Directories templating, unit testing nested arrays and more.  </p>
+                                            <p>Principles of OOP, Streams, Files and Directories templating, unit testing, nested arrays and more.  </p>
                                         </div>
 
                                     </li>
@@ -156,50 +156,6 @@ export default function ModalCV({ resumeTrueFalse }) {
                             </div>
                         </section>
                         {/* /CV: Education Section  */}
-
-
-                        {/* CV: Experience Section  */}
-                        {/* <section id="cv_experience">
-                            <div className="section_title">
-                                <h3>Experience</h3>
-                            </div>
-                            <div className="fn_cs_boxed_list">
-                                <ul>
-                                    <li>
-                                        <div className="item">
-                                            <div className="item_top">
-                                                <h5>Frenify  LLC</h5>
-                                                <span>( 2018 — Today )</span>
-                                            </div>
-                                            <h3>Sr. Front-end Engineer</h3>
-                                            <p>Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="item">
-                                            <div className="item_top">
-                                                <h5>Google  LLC</h5>
-                                                <span>( 2016 — 2018 )</span>
-                                            </div>
-                                            <h3>Front-end Developer</h3>
-                                            <p>Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="item">
-                                            <div className="item_top">
-                                                <h5>Twitter  LLC</h5>
-                                                <span>( 2016 — 2011 )</span>
-                                            </div>
-                                            <h3>Graphic Designer</h3>
-                                            <p>Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </section> */}
-                        {/* /CV: Experience Section  */}
-
 
                         {/* CV: Skills Section  */}
                         <section id="skills" className="section_skills wow fadeInRight" data-wow-delay=".7s">
