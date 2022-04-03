@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState, useEffect } from "react";
 // import PanelContent from "../components/PanelContent";
 import { dataImage } from "../utilits";
-// import Cursor from "./Cursor";
+//import Cursor from "./Cursor";
 import Footer from "./Footer";
 import HeroHeader from "./HeroHeader";
 import ModalBox from "./ModalBox";
@@ -35,8 +35,6 @@ const Layout = ({ children }) => {
       });
     }
   }
-
-
 
   return (
     <>

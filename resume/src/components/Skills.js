@@ -1,11 +1,12 @@
 import React from 'react';
 
+
 export default function Skills() {
     return (
 
         <>
             {/* Section Skills */}
-            <section id="skills" className="section_skills wow fadeInRight" data-wow-delay=".7s">
+            <section id="cv_skills" className="section_skills wow fadeInRight" data-wow-delay=".7s">
                 <div className="skills_wrapper">
                     <div className="container narrow">
                         <div className="skills_title">
@@ -26,7 +27,7 @@ export default function Skills() {
                                         75%
                                     </span>
                                     <div className="bg_wrap">
-                                        <div className="progress_bg" style={{ width: "100%" }} />
+                                        <div className="progress_bg" style={{ width: "75%" }} />
                                     </div>
                                 </div>
                             </div>
@@ -40,7 +41,7 @@ export default function Skills() {
                                         70%
                                     </span>
                                     <div className="bg_wrap">
-                                        <div className="progress_bg" style={{ width: "100%" }} />
+                                        <div className="progress_bg" style={{ width: "70%" }} />
                                     </div>
                                 </div>
                             </div>
@@ -55,14 +56,14 @@ export default function Skills() {
                                         70%
                                     </span>
                                     <div className="bg_wrap">
-                                        <div className="progress_bg" style={{ width: "100%" }} />
+                                        <div className="progress_bg" style={{ width: "70%" }} />
                                     </div>
                                 </div>
                             </div>
 
                             <div className="progress_item open" data-value={60}>
                                 <div className="item_in">
-                                    <h3 className="progress_title">Node.js</h3>
+                                    <h3 className="progress_title">Java Script</h3>
                                     <span
                                         className="progress_percent"
                                         style={{ right: "40%" }}
@@ -70,7 +71,7 @@ export default function Skills() {
                                         60%
                                     </span>
                                     <div className="bg_wrap">
-                                        <div className="progress_bg" style={{ width: "100%" }} />
+                                        <div className="progress_bg" style={{ width: "60%" }} />
                                     </div>
                                 </div>
                             </div>
@@ -85,7 +86,7 @@ export default function Skills() {
                                         70%
                                     </span>
                                     <div className="bg_wrap">
-                                        <div className="progress_bg" style={{ width: "100%" }} />
+                                        <div className="progress_bg" style={{ width: "70%" }} />
                                     </div>
                                 </div>
                             </div>
@@ -100,7 +101,7 @@ export default function Skills() {
                                         60%
                                     </span>
                                     <div className="bg_wrap">
-                                        <div className="progress_bg" style={{ width: "100%" }} />
+                                        <div className="progress_bg" style={{ width: "60%" }} />
                                     </div>
                                 </div>
                             </div>

@@ -34,6 +34,8 @@ export const customCursor = () => {
       e.classList.remove("cursor-hover"), t.classList.remove("cursor-hover");
     });
   }
+
+
   if (myCursor.length) {
     if (document.body) {
       let n,
