@@ -42,7 +42,7 @@ export default function Contact() {
 				<div className="container">
 					<div className="contact_wrapper">
 						<div className="contact_wrapper_form">
-							<form className="contact_form" onSubmit={(e) => onSubmit(e)} data-email="krasimirivajlov@gmail.com">
+							<form action='https://formspree.io/f/xnqwblrb' method='POST' className="contact_form">
 
 								<div
 									className="success"

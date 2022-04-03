@@ -17,6 +17,7 @@ export default function Work() {
 
                             <a className='git_link' href="https://github.com/KrasiIvaylov/PersonalProjects/tree/testbranch/resume" >Repository</a>
 
+
                         </div>
                         <div className="work_content_right_bar">
                             <div className="right_bar_wrapper">
