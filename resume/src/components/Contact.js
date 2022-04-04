@@ -1,19 +1,22 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
 	const [form, setForm] = useState({ email: "", name: "", phone: "", msg: "" });
 	const [active, setActive] = useState(null);
 	const [error, setError] = useState(false);
 	const [success, setSuccess] = useState(false);
+
 	const onChange = (e) => {
 		setForm({ ...form, [e.target.name]: e.target.value });
 	};
+
 	const { email, name, phone, msg } = form;
 	const onSubmit = (e) => {
 		e.preventDefault();
 		if (email && name && phone && msg) {
+			emailjs.send('service_zzcsrtu', 'template_goc8zap', form, 'eB3phnC6bJUdIn5cQ');
 			setSuccess(true);
-
 			setTimeout(() => {
 				setForm({ email: "", name: "", phone: "", msg: "" });
 				setSuccess(false);
@@ -42,7 +45,7 @@ export default function Contact() {
 				<div className="container">
 					<div className="contact_wrapper">
 						<div className="contact_wrapper_form">
-							<form action='https://formspree.io/f/xnqwblrb' method='POST' className="contact_form">
+							<form className="contact_form" onSubmit={(e) => onSubmit(e)}>
 
 								<div
 									className="success"
