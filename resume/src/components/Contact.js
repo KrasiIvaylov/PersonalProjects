@@ -15,7 +15,7 @@ export default function Contact() {
 	const onSubmit = (e) => {
 		e.preventDefault();
 		if (email && name && phone && msg) {
-			emailjs.send('service_zzcsrtu', 'template_goc8zap', form, 'eB3phnC6bJUdIn5cQ');
+			emailjs.send('service_zzcsrtu', 'template_v5phcik', form, 'eB3phnC6bJUdIn5cQ');
 			setSuccess(true);
 			setTimeout(() => {
 				setForm({ email: "", name: "", phone: "", msg: "" });
