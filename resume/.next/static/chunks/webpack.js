@@ -128,7 +128,11 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
+<<<<<<< HEAD:resume/.next/static/chunks/webpack.js
 /******/ 		__webpack_require__.h = function() { return "e669d9d434fc299e"; }
+=======
+/******/ 		__webpack_require__.h = function() { return "61aec741ce8d14c0"; }
+>>>>>>> testbranch:resume/.gitignore/.next/static/chunks/webpack.js
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */

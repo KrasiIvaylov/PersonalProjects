@@ -53,7 +53,7 @@ export default function Contact() {
 									style={{ display: success ? "block" : "none" }}
 								>
 									<span className="contact_success">
-										Your message has been received, we will contact you soon.
+										Your message has been received, I will contact you soon.
 									</span>
 								</div>
 								<div

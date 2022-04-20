@@ -20,7 +20,7 @@ export default function About() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/krasiivaylov" target="_blank" title="facebook.com">
+                  <a href="https://www.facebook.com/krasivaylov" target="_blank" title="facebook.com">
                     <SVG_Facebook />
                   </a>
                 </li>
