@@ -17,31 +17,31 @@ export default function Skills() {
                     </div>
                     <div className="container narrow2">
                         <div className="fn_cs_progress_bar">
-                            <div className="progress_item open" data-value={75}>
+                            <div className="progress_item open" data-value={65}>
                                 <div className="item_in">
                                     <h3 className="progress_title">Java</h3>
                                     <span
                                         className="progress_percent"
-                                        style={{ right: "25%" }}
+                                        style={{ right: "35%" }}
                                     >
-                                        75%
+                                        65%
                                     </span>
                                     <div className="bg_wrap">
-                                        <div className="progress_bg" style={{ width: "75%" }} />
+                                        <div className="progress_bg" style={{ width: "65%" }} />
                                     </div>
                                 </div>
                             </div>
-                            <div className="progress_item open" data-value={70}>
+                            <div className="progress_item open" data-value={60}>
                                 <div className="item_in">
                                     <h3 className="progress_title">Spring Data</h3>
                                     <span
                                         className="progress_percent"
-                                        style={{ right: "30%" }}
+                                        style={{ right: "40%" }}
                                     >
-                                        70%
+                                        60%
                                     </span>
                                     <div className="bg_wrap">
-                                        <div className="progress_bg" style={{ width: "70%" }} />
+                                        <div className="progress_bg" style={{ width: "60%" }} />
                                     </div>
                                 </div>
                             </div>
