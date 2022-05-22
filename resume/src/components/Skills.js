@@ -61,17 +61,31 @@ export default function Skills() {
                                 </div>
                             </div>
 
-                            <div className="progress_item open" data-value={60}>
+                            <div className="progress_item open" data-value={70}>
                                 <div className="item_in">
                                     <h3 className="progress_title">Java Script</h3>
                                     <span
                                         className="progress_percent"
-                                        style={{ right: "40%" }}
+                                        style={{ right: "30%" }}
                                     >
-                                        60%
+                                        70%
                                     </span>
                                     <div className="bg_wrap">
-                                        <div className="progress_bg" style={{ width: "60%" }} />
+                                        <div className="progress_bg" style={{ width: "70%" }} />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="progress_item open" data-value={70}>
+                                <div className="item_in">
+                                    <h3 className="progress_title">React</h3>
+                                    <span
+                                        className="progress_percent"
+                                        style={{ right: "30%" }}
+                                    >
+                                        70%
+                                    </span>
+                                    <div className="bg_wrap">
+                                        <div className="progress_bg" style={{ width: "70%" }} />
                                     </div>
                                 </div>
                             </div>
